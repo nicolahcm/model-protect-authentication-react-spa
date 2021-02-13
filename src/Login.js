@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Redirect, useLocation } from "react-router-dom";
 
 export default function Login() {
+
+  console.log("location in login is", useLocation())
+
   const { state } = useLocation();
   const { from } = state || { from: { pathname: "/" } };
   const [redirectToReferrer, setRedirectToReferrer] = useState(false);

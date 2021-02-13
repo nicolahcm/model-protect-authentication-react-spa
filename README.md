@@ -1,26 +1,7 @@
-# React Router v5: The Complete Guide
+Fork of the article:
 
-[React Router](https://reacttraining.com/react-router/) is the de facto standard routing library for React. This repo consists of several examples that demonstrate what you can do with react router v5. 
+https://www.sitepoint.com/react-router-complete-guide/
 
-The example covered include:
-
-- Basic navigational routing
-- Nested routing
-- Nested routing with path parameters
-- Protected routing
-
-This code accompanies the following tutorial on SitePoint: https://www.sitepoint.com/react-router-complete-guide/
-
-## Requirements
-
-* [Node.js](http://nodejs.org/)
-
-## Installation Steps (if applicable)
-
-1. Clone repo
-2. Run `npm install`
-3. Run `npm run start`
-4. Visit http://localhost:3000/
 
 ## License
 

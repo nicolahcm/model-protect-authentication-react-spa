@@ -1,15 +1,22 @@
 import React from "react";
-import { Link, Route, Switch, useRouteMatch } from "react-router-dom";
+import { Link, Route, Switch, useLocation, useRouteMatch } from "react-router-dom";
 import Category from "./Category";
 import Products from "./Products";
 import Login from './Login';
 import PrivateRoute from "./PrivateRoute";
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
+const Home = () => {
+
+  let location = useLocation()
+
+  console.log("location in home is,", location)
+
+
+  return (
+    < div >
+      <h2>Home</h2>
+    </ div>)
+}
 
 const Admin = () => (
   <div>
@@ -17,12 +24,8 @@ const Admin = () => (
   </div>
 );
 
+
 export default function App() {
-
-  // let match = useRouteMatch('/hi/everyone/:d')
-
-  // console.log('higher match in App is,', match)
-
   return (
     <div>
       <nav className="navbar navbar-light">
